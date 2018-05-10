@@ -2,13 +2,13 @@
 title: POSko API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-
+  - sh
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
-
+  - users
 
 search: true
 ---
@@ -44,7 +44,7 @@ Use using Basic authentication
 ### HTTP Request
 
 
-`GET /api/v1/sign_in`
+`POST /api/v1/sign_in`
 
 ### Paramaters
 
