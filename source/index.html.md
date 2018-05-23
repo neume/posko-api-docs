@@ -9,6 +9,7 @@ toc_footers:
 
 includes:
   - users
+  - access_keys
 
 search: true
 ---
