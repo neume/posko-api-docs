@@ -3,6 +3,13 @@ This is the documentaion of [POSko](https://github.com/neume/posko) API referenc
 
 You can find [API Docs here](https://neume.github.io/posko-api-docs).
 
+## Local Server Setup
+Run these commands
+```
+bundle install
+# run server
+bundle exec middleman server
+```
 ## Deploying
 + Push to default branch
 + Run ```./deploy.sh```
