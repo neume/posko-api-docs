@@ -11,6 +11,7 @@ includes:
   - users
   - access_keys
   - customers
+  - products
   - orders
 
 search: true
