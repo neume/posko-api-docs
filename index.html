@@ -260,6 +260,17 @@
               </ul>
           </li>
           <li>
+            <a href="#products" class="toc-h1 toc-link" data-title="products">Products</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#general-actions" class="toc-h2 toc-link" data-title="general-actions">General Actions</a>
+                  </li>
+                  <li>
+                    <a href="#endpoints" class="toc-h2 toc-link" data-title="endpoints">Endpoints</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#orders" class="toc-h1 toc-link" data-title="orders">Orders</a>
               <ul class="toc-list-h2">
                   <li>
@@ -309,44 +320,44 @@ are intentional. Those keys will be removed when the core functionalities are re
 <h3 id='paramaters'>Paramaters</h3>
 <table><thead>
 <tr>
-<th>Parameter</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Parameter</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>account_name</code></td>
-<td>String</td>
-<td>The account name of the user. ex: <code>the_green_store</code></td>
+<td style="text-align: left"><code>account_name</code></td>
+<td style="text-align: left">String</td>
+<td style="text-align: left">The account name of the user. ex: <code>the_green_store</code></td>
 </tr>
 <tr>
-<td><code>email</code></td>
-<td>String</td>
-<td>The email address of the user</td>
+<td style="text-align: left"><code>email</code></td>
+<td style="text-align: left">String</td>
+<td style="text-align: left">The email address of the user</td>
 </tr>
 <tr>
-<td><code>password</code></td>
-<td>String</td>
-<td>Password of the user</td>
+<td style="text-align: left"><code>password</code></td>
+<td style="text-align: left">String</td>
+<td style="text-align: left">Password of the user</td>
 </tr>
 </tbody></table>
 <h3 id='response'>Response</h3>
 <table><thead>
 <tr>
-<th>Parameter</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Parameter</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>token</code></td>
-<td>String</td>
-<td>A unique token that will serve as the <code>username</code> in Basic Auth</td>
+<td style="text-align: left"><code>token</code></td>
+<td style="text-align: left">String</td>
+<td style="text-align: left">A unique token that will serve as the <code>username</code> in Basic Auth</td>
 </tr>
 <tr>
-<td><code>auth_token</code></td>
-<td>String</td>
-<td>The password</td>
+<td style="text-align: left"><code>auth_token</code></td>
+<td style="text-align: left">String</td>
+<td style="text-align: left">The password</td>
 </tr>
 </tbody></table>
 
@@ -385,15 +396,15 @@ are intentional. Those keys will be removed when the core functionalities are re
 <h3 id='response'>Response</h3>
 <table><thead>
 <tr>
-<th>Key</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Key</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>users</code></td>
-<td>Array</td>
-<td>Collection of users</td>
+<td style="text-align: left"><code>users</code></td>
+<td style="text-align: left">Array</td>
+<td style="text-align: left">Collection of users</td>
 </tr>
 </tbody></table>
 <h1 id='access-keys'>Access Keys</h1><h2 id='get-access-keys-of-current-customer'>Get access keys of current customer</h2><pre class="highlight sh tab-shell"><code>  curl --request GET <span class="se">\</span>
@@ -419,15 +430,15 @@ are intentional. Those keys will be removed when the core functionalities are re
 <h3 id='response'>Response</h3>
 <table><thead>
 <tr>
-<th>Key</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Key</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>access_keys</code></td>
-<td>Array</td>
-<td>Collection of tokens</td>
+<td style="text-align: left">access_keys</td>
+<td style="text-align: left">Array</td>
+<td style="text-align: left">Collection of tokens</td>
 </tr>
 </tbody></table>
 <h1 id='customers'>Customers</h1><h2 id='get-all-customers'>Get all customers</h2><pre class="highlight sh tab-shell"><code>  curl --request GET <span class="se">\</span>
@@ -459,15 +470,15 @@ are intentional. Those keys will be removed when the core functionalities are re
 <h3 id='response'>Response</h3>
 <table><thead>
 <tr>
-<th>Key</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Key</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>customers</code></td>
-<td>Array</td>
-<td>Collection of customers</td>
+<td style="text-align: left"><code>customers</code></td>
+<td style="text-align: left">Array</td>
+<td style="text-align: left">Collection of customers</td>
 </tr>
 </tbody></table>
 <h2 id='create-customer'>Create Customer</h2><h3 id='http-request-2'>HTTP Request</h3><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
@@ -510,6 +521,59 @@ are intentional. Those keys will be removed when the core functionalities are re
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
 <p><code>POST /api/v1/customers</code></p>
+<h1 id='products'>Products</h1>
+<p>This resource enables you to retrieve product information</p>
+<h2 id='general-actions'>General Actions</h2>
+<p>Detailed information about these endpoints are down below
+- GET /api/v1/products
+- GET /api/v1/products/:id</p>
+<h2 id='endpoints'>Endpoints</h2><h3 id='get-api-v1-products'>GET /api/v1/products</h3>
+<p>Retrieves a list of product</p>
+
+<table><thead>
+<tr>
+<th style="text-align: left">Parameter</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: left">ids</td>
+<td style="text-align: left">Array</td>
+<td style="text-align: left">An array of ids to be retrieved</td>
+</tr>
+<tr>
+<td style="text-align: left">limit</td>
+<td style="text-align: left">Integer</td>
+<td style="text-align: left">The number of results per page</td>
+</tr>
+<tr>
+<td style="text-align: left">page</td>
+<td style="text-align: left">Integer</td>
+<td style="text-align: left">The page to be retrieved</td>
+</tr>
+<tr>
+<td style="text-align: left">since_id</td>
+<td style="text-align: left">Integer</td>
+<td style="text-align: left">Retrieves data after the specified id</td>
+</tr>
+</tbody></table>
+<h3 id='get-api-v1-products-id'>GET /api/v1/products/:id</h3>
+<p>Retrieves info of a product</p>
+
+<table><thead>
+<tr>
+<th style="text-align: left">Paramater</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: left">:id</td>
+<td style="text-align: left">Integer</td>
+<td style="text-align: left">The unique id of the product</td>
+</tr>
+</tbody></table>
 <h1 id='orders'>Orders</h1><h2 id='get-all-orders'>Get all orders</h2><pre class="highlight sh tab-shell"><code>  curl --request GET <span class="se">\</span>
     --url <span class="s1">'http://example.com/api/v1/orders'</span> <span class="se">\</span>
     --header <span class="s1">'Authorization: &lt;Processed Basic hash&gt;'</span> <span class="se">\</span>
@@ -539,15 +603,15 @@ are intentional. Those keys will be removed when the core functionalities are re
 <h3 id='response'>Response</h3>
 <table><thead>
 <tr>
-<th>Key</th>
-<th>Type</th>
-<th>Description</th>
+<th style="text-align: left">Key</th>
+<th style="text-align: left">Type</th>
+<th style="text-align: left">Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td><code>orders</code></td>
-<td>Array</td>
-<td>Collection of orders</td>
+<td style="text-align: left"><code>orders</code></td>
+<td style="text-align: left">Array</td>
+<td style="text-align: left">Collection of orders</td>
 </tr>
 </tbody></table>
 <h2 id='create-order'>Create Order</h2><h3 id='http-request-2'>HTTP Request</h3><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
