@@ -34,6 +34,6 @@
 
 ### Response
 
-Key | Type    | Description
---------- | ------- | -----------
-`access_keys`       | Array  | Collection of tokens
+| Key           | Type  | Description          |
+|:--------------|:------|:---------------------|
+| `access_keys` | Array | Collection of tokens |

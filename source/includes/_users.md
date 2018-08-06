@@ -44,6 +44,6 @@
 
 ### Response
 
-Key | Type    | Description
---------- | ------- | -----------
-`users`       | Array  | Collection of users
+| Key     | Type  | Description         |
+|:--------|:------|:--------------------|
+| `users` | Array | Collection of users |

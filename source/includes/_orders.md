@@ -39,9 +39,9 @@
 
 ### Response
 
-Key | Type    | Description
---------- | ------- | -----------
-`orders`       | Array  | Collection of orders
+| Key      | Type  | Description          |
+|:---------|:------|:---------------------|
+| `orders` | Array | Collection of orders |
 
 
 

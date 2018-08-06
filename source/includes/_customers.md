@@ -39,9 +39,9 @@
 
 ### Response
 
-Key | Type    | Description
---------- | ------- | -----------
-`customers`       | Array  | Collection of customers
+| Key         | Type  | Description             |
+|:------------|:------|:------------------------|
+| `customers` | Array | Collection of customers |
 
 
 

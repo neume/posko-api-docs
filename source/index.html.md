@@ -53,19 +53,19 @@ Use using Basic authentication
 ### Paramaters
 
 
-Parameter | Type    | Description
---------- | ------- | -----------
-`account_name` | String  | The account name of the user. ex: ```the_green_store```
-`email`        | String  | The email address of the user
-`password`     | String  | Password of the user
+| Parameter      | Type   | Description                                             |
+|:---------------|:-------|:--------------------------------------------------------|
+| `account_name` | String | The account name of the user. ex: ```the_green_store``` |
+| `email`        | String | The email address of the user                           |
+| `password`     | String | Password of the user                                    |
 
 
 ### Response
 
-Parameter | Type    | Description
---------- | ------- | -----------
-`token`       | String  | A unique token that will serve as the `username` in Basic Auth
-`auth_token`  | String  | The password
+| Parameter    | Type   | Description                                                    |
+|:-------------|:-------|:---------------------------------------------------------------|
+| `token`      | String | A unique token that will serve as the `username` in Basic Auth |
+| `auth_token` | String | The password                                                   |
 
 
 
